@@ -1,0 +1,21 @@
+
+[
+    {
+        "username": "hanna123@gmail.com",
+        "password": "Test@123",
+        "expected": "success",
+        "run": true
+    },
+    {
+        "username": "test@gmail.com",
+        "password": "Test@123",
+        "expected": "failure",
+        "run": true
+    },
+    {
+        "username": "han@example.com",
+        "password": "Test@123",
+        "expected": "failure",
+        "run": false
+    }
+]
